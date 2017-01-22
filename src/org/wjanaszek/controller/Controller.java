@@ -451,7 +451,6 @@ public class Controller implements ReversePolishNotation {
 			variableDefinition = false;
 			getText().setText("Dodano zmienna " + variableName);
 		} else {
-			//System.out.println("=" + result);
 			getText().setText(result.toString());
 		} 
 		easyResult = false;

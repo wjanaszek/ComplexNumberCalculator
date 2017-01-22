@@ -264,6 +264,7 @@ public class View {
 		buttonRes.setText("RESET");
 		
 		Label lblWejcie = new Label(shell, SWT.NONE);
+		//
 		lblWejcie.setBounds(10, 16, 48, 16);
 		lblWejcie.setText("wejście:");
 	}
