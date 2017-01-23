@@ -163,7 +163,7 @@ public class View {
 		shell = new Shell();
 		shell.setSize(450, 300);
 		shell.setText(APP_NAME);
-		shell.setLayout(null);
+		shell.setLayout(null);//
 		
 		text = new Text(shell, SWT.BORDER);
 		text.setBounds(64, 10, 165, 22);
