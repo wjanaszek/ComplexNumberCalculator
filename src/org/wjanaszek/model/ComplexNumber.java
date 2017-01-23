@@ -2,6 +2,13 @@ package org.wjanaszek.model;
 
 import java.lang.Math.*;
 
+/*
+ * Klasa implementujaca liczby zespolone. Podstawowy zakres funkcji, jak dodawanie 2 liczb, odejmowanie, mnozenie, dzielenie, argument, modul. Nadpisane metody
+ * toString() i valueOf(String).
+ * 
+ * @author Wojciech Janaszek
+ * @category Model
+ */
 public class ComplexNumber {
 	private double re;		// real part
 	private double im;		// imaginary part

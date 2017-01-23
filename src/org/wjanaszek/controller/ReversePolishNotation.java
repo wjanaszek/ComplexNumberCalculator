@@ -9,6 +9,7 @@ import org.wjanaszek.model.ComplexNumber;
  * wyrazenia na podstawie tych struktur danych.
  * 
  * @author Wojciech Janaszek
+ * @category Controller
  */
 public interface ReversePolishNotation {
 	public void parse(String input) throws VariableNotFoundException;

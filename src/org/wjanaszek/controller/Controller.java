@@ -34,6 +34,7 @@ import org.wjanaszek.model.*;
  * zgodnie z kolejnoscia. 
  * 
  * @author Wojciech Janaszek
+ * @category Controller
  * @see org.wjanaszek.controller.ReversePolishNotation
  */
 public class Controller implements ReversePolishNotation {
@@ -451,6 +452,7 @@ public class Controller implements ReversePolishNotation {
 			variableDefinition = false;
 			getText().setText("Dodano zmienna " + variableName);
 		} else {
+			//System.out.println("=" + result);
 			getText().setText(result.toString());
 		} 
 		easyResult = false;

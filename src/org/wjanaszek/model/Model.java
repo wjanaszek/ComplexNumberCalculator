@@ -4,6 +4,13 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Stack;
 
+/*
+ * Klasa reprezentujaca model z architektury MVC. Przechowuje definicje zmiennych powiazane z wartosciami w HashMapie, a oprocz tego formuly obliczania zmiennych zaleznych
+ * od siebie w liscie.
+ * 
+ * @author Wojciech Janaszek
+ * @category Model
+ */
 public class Model {
 	private static HashMap<Character, ComplexNumber> variables;
 	private Stack<Character> stack;
@@ -16,7 +23,6 @@ public class Model {
 		queue = new LinkedList<String>();
 		variableFormules = new LinkedList<String>();
 	}
-
 
 	public static HashMap<Character, ComplexNumber> getVariablesHashMap() {
 		return variables;

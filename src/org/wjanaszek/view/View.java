@@ -169,17 +169,6 @@ public class View {
 		text.setBounds(64, 10, 165, 22);
 		
 		button1 = new Button(shell, SWT.NONE);
-		/*button1.addMouseListener(new MouseAdapter(){
-			@Override
-			public void mouseDown(MouseEvent e){
-				System.out.println("Wcisnieto 1");
-			}
-			
-			@Override
-			public void mouseUp(MouseEvent e){
-				System.out.println("Wycisnieto 1");
-			}
-		});*/
 		button1.setBounds(10, 51, 82, 22);
 		button1.setText("1");
 		
@@ -264,7 +253,6 @@ public class View {
 		buttonRes.setText("RESET");
 		
 		Label lblWejcie = new Label(shell, SWT.NONE);
-		//
 		lblWejcie.setBounds(10, 16, 48, 16);
 		lblWejcie.setText("wejście:");
 	}
