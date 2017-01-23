@@ -13,6 +13,11 @@ public class ComplexNumber {
 	private double re;		// real part
 	private double im;		// imaginary part
 	
+	/*
+	 * Konstruktor przypisujacy odpowiednie wartosci
+	 * @param re real part
+	 * @param im im part
+	 */
 	public ComplexNumber(double re, double im){
 		this.re = re;
 		this.im = im;

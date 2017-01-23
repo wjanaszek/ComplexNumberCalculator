@@ -40,7 +40,7 @@ import org.wjanaszek.model.*;
 public class Controller implements ReversePolishNotation {
 	private View view;
 	private Model model;
-	private boolean variableDefinition = false;//
+	private boolean variableDefinition = false;
 	private boolean variableValueChanged = false;
 	private char changedVariableName;
 	private char variableName;

@@ -11,6 +11,7 @@ import java.util.Stack;
  * @author Wojciech Janaszek
  * @category Model
  */
+
 public class Model {
 	private static HashMap<Character, ComplexNumber> variables;
 	private Stack<Character> stack;
